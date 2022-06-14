@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+$color-1: #f1faee;
+$color-2: #e63946;
+$color-3: #b8f2e6;
+$color-4: #1d3557;
+$color-5: #457b9d;
+@mixin shadow {
+	box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.44);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	// position: relative;
+	margin: 0 auto;
+	font-family: 'Righteous', cursive;
+	color: $color-1;
+	background: url('../../public/backgroundjpg.jpg');
+	background-position: 50% 30%;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	font-family: 'Righteous', cursive;
+	text-decoration: none;
+	cursor: pointer;
+	color: $color-5;
+}
+
+@keyframes progress-display {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

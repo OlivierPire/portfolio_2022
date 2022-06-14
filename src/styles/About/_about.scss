@@ -1,0 +1,37 @@
+.about-hero {
+
+    .portrait {
+        opacity: 1;
+        width: 400px;
+        border-radius: 3px;
+        position: absolute;
+        left: 100px;
+        top: 50%;
+        transform: translate(0, -50%);
+        animation: progress-display 2s;
+    }
+
+    .about-text {
+        animation: progress-display 3s;
+        text-align: justify;
+        position: absolute;
+        top: 50%;
+        left: 57%;
+        transform: translate(-50%, -50%);
+        color: $color-4;
+        font-size: 1.5em;
+
+        a {
+            color: $color-2;
+
+            &:hover {
+                color: $color-2;
+                opacity: 0.7;
+            }
+        }
+
+        span {
+            color: $color-2;
+        }
+    }
+}

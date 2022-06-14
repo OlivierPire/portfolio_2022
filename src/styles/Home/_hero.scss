@@ -1,0 +1,93 @@
+.hero {
+    position: relative;
+    display: flex;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.781);
+
+    .presentation {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, 70%);
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        animation: progress-display 1s;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: lighter;
+        margin-bottom: 15px;
+        color: rgb(233, 98, 98);
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 2.7em;
+        color: $color-5;
+    }
+
+    .btn-block {
+        .hero-btn {
+            color: $color-4;
+            border: 2px solid $color-5;
+            background-color: rgba(255, 255, 255, 0.205);
+            font-size: 1.2em;
+            width: 50px;
+            height: 50px;
+            border-radius: 40%;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: 0.5s;
+
+            
+            &:hover {
+                transform: scale(1.1);
+                background-color: #1d35572f;
+
+                .arrow-icon {
+                    transform: rotate(-90deg);
+                }
+
+                &::after {
+                    width: 400px;
+                    font-family: 'Righteous', cursive;
+                    font-size: 1.5em;
+                    color: $color-4;
+                    content: 'Découvrir mes réalisations';
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(30px, -50%);
+                    right: -390px;
+                    display: block;
+                    animation: progress-translate 2.5s;
+                }
+
+                @keyframes progress-translate {
+                    0% {
+                        opacity: 0;
+                        transform: translate(-20px, -50%);
+                    }
+                    100% {
+                        opacity: 1;
+                        transform: translate(30px, -50%);
+                    }
+                }
+            }
+    
+            .arrow-icon {
+                transition: 0.3s;
+                color: $color-5;
+            }
+        }
+
+        .btn-title {
+            display: none;
+            color: $color-4;
+            margin-left: 20px;
+            font-size: 1.5em;
+        }
+    }
+
+
+}
