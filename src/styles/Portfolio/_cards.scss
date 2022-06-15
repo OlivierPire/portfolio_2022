@@ -1,0 +1,130 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 57px 100px;
+	animation: progress-display 2s;
+
+	.card {
+		cursor: pointer;
+		position: relative;
+		background-color: $color-4;
+		border-radius: 8px;
+		border: 1.5px solid $color-4;
+		margin-bottom: 35px;
+		box-shadow: 5px 5px 7px -1px rgba(0, 0, 0, 0.5);
+		transition: 0.4s;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+
+		.capture-block {
+			.website-capture {
+				object-fit: cover;
+				width: 410px;
+				height: 200px;
+			}
+			&:hover {
+				.visit-website {
+					animation: progress-display 0.7s;
+					display: block;
+				}
+				.website-capture {
+					opacity: 0.2;
+				}
+			}
+
+			.visit-website {
+				display: none;
+				border-radius: 4px;
+				font-size: 1.2em;
+				position: absolute;
+				background-color: $color-1;
+				border: 2px solid white;
+				padding: 10px 40px;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				z-index: 1000;
+			}
+		}
+
+		h2 {
+			color: $color-1;
+			font-weight: lighter;
+			text-align: center;
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+
+		// .more-details {
+		// 	&:hover {
+		// 		.details {
+		// 			display: block;
+		// 		}
+		// 	}
+		// }
+
+		.details {
+			display: none;
+			border-radius: 15px;
+			border: 2px solid $color-4;
+			z-index: 1000;
+			background-color: $color-5;
+			padding: 30px;
+			position: absolute;
+			top: 50px;
+			right: 50px;
+			width: 300px;
+			color: rgb(255, 255, 255);
+		}
+
+		.question {
+			cursor: pointer;
+			color: $color-4;
+			position: absolute;
+			right: 11px;
+			top: 60px;
+			font-size: 1.8em;
+			z-index: 100;
+		}
+
+		.technos-used {
+			display: flex;
+			margin: 10px;
+
+			li {
+				margin-right: 20px;
+				position: relative;
+
+				&:hover {
+					.techno-label {
+						display: block;
+					}
+				}
+
+				.techno-label {
+					display: none;
+					border-radius: 15px;
+					border: 2px solid $color-4;
+					z-index: 1000;
+					background-color: $color-5;
+					padding: 5px;
+					margin-top: 5px;
+					left: 0px;
+					position: absolute;
+					color: rgb(255, 255, 255);
+				}
+
+				.techno-mini {
+					object-fit: cover;
+					width: 35px;
+					height: 35px;
+				}
+			}
+		}
+	}
+}

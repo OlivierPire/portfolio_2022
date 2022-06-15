@@ -12,12 +12,12 @@ const Hero = () => {
 				<h2>
 					Développeur d'application <br /> front-End
 				</h2>
-				<div className="btn-block">
+				<NavLink to='/portfolio' className="btn-block">
 					<button className="hero-btn" aria-label="bouton portfolio">
 						<FontAwesomeIcon icon={faArrowDown} className="arrow-icon" />
 					</button>
-					<NavLink to='/portfolio' className='btn-title'>Découvrir mes réalisations</NavLink>
-				</div>
+					<p className='btn-title'>Découvrir mes réalisations</p>
+				</NavLink>
 			</div>
 			<Technos />
 			{/* <img src="../motif.png" alt="" className="bubble" /> */}
