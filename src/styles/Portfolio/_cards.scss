@@ -1,3 +1,143 @@
+.more-details {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 900px;
+	height: 650px;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	border: 2px solid $color-4;
+	z-index: 1000;
+	background-color: white;
+	color: $color-4;
+	box-shadow: 0px 0px 17px 14px rgba(0, 0, 0, 0.54);
+	animation: fadeIn 0.5s;
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+			height: 0px;
+		}
+		100% {
+			opacity: 1;
+			height: 650px;
+		}
+	}
+
+	.close-btn {
+		cursor: pointer;
+		font-size: 3em;
+		position: absolute;
+		right: 40px;
+		top: 30px;
+		transition: 0.5s;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+
+		&:hover {
+			color: white;
+			background-color: $color-4;
+		}
+	}
+
+	.website-capture {
+		z-index: -1;
+		opacity: 0.1;
+		object-fit: cover;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 2em;
+		margin-top: 40px;
+	}
+
+	.details {
+		color: rgb(255, 255, 255);
+		margin-top: 40px;
+		background-color: $color-4;
+		font-size: 1.3em;
+		padding: 50px;
+		margin-bottom: 10px;
+	}
+
+	.github-link {
+		font-size: 1.2em;
+		padding: 50px;
+	}
+
+	.visit-website {
+		animation: display 2s;
+		color: $color-1;
+		border-radius: 4px;
+		font-size: 1.6em;
+		position: absolute;
+		background-color: $color-4;
+		padding: 10px 40px;
+		bottom: 0;
+		left: 50%;
+		bottom: 40px;
+		transform: translate(-50%, -50%);
+		box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.49);
+		transition: 0.5s;
+
+		&:hover {
+			transform: translate(-50%, -50%) scale(1.05);
+			background-color: #1d3557e8;
+		}
+	}
+
+	@keyframes display {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	.technos-used {
+		display: flex;
+		margin: 30px;
+		justify-content: center;
+
+		li {
+			margin-right: 20px;
+			position: relative;
+
+			&:hover {
+				.techno-label {
+					display: block;
+				}
+			}
+
+			.techno-label {
+				display: none;
+				border-radius: 15px;
+				border: 2px solid $color-4;
+				z-index: 1000;
+				background-color: $color-5;
+				padding: 5px;
+				margin-top: 5px;
+				left: 0px;
+				position: absolute;
+				color: rgb(255, 255, 255);
+			}
+
+			.techno-mini {
+				object-fit: cover;
+				width: 75px;
+				height: 75px;
+			}
+		}
+	}
+}
+
 .cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -5,7 +145,7 @@
 	justify-content: space-between;
 	align-content: space-between;
 	padding: 57px 100px;
-	animation: progress-display 2s;
+	animation: progress-display 1s;
 
 	.card {
 		cursor: pointer;
@@ -60,26 +200,21 @@
 			margin-top: 10px;
 		}
 
-		// .more-details {
-		// 	&:hover {
-		// 		.details {
-		// 			display: block;
-		// 		}
-		// 	}
-		// }
-
-		.details {
-			display: none;
-			border-radius: 15px;
-			border: 2px solid $color-4;
-			z-index: 1000;
-			background-color: $color-5;
-			padding: 30px;
+		.more-details-btn {
+			opacity: 0.5;
 			position: absolute;
-			top: 50px;
-			right: 50px;
-			width: 300px;
-			color: rgb(255, 255, 255);
+			right: 0px;
+			bottom: 0px;
+			cursor: pointer;
+			color: white;
+			font-size: 0.95em;
+			border: none;
+			background-color: transparent;
+			padding: 20px;
+
+			&:hover {
+				opacity: 1;
+			}
 		}
 
 		.question {

@@ -13,6 +13,7 @@ const Portfolio = () => {
 					details="Projet Openclassrooms développer avec React à l'aide de redux toolkit pour la partie stockage de données en local, le but du projet était de convertir une application jQuery en react et de créer un package déployer sur npm et l'intégrer dans l'application 'en l'occurence la modal). "
 					link="https://olivierpire.github.io/P14_Olivier_Pire/"
 					technos={['../React.png', '../Redux.png', '../Sass.png']}
+					github="https://github.com/OlivierPire/P14_Olivier_Pire"
 				/>
 				<Cards
 					img="../capture_petits_plats.jpg"
@@ -20,6 +21,7 @@ const Portfolio = () => {
 					details="Projet Openclassrooms développer avec React à l'aide de redux toolkit pour la partie stockage de données en local, le but du projet était de convertir une application jQuery en react et de créer un package déployer sur npm et l'intégrer dans l'application 'en l'occurence la modal). "
 					link="https://olivierpire.github.io/OlivierPire_7_11112021/"
 					technos={['../Sass.png', '../Javascript.png']}
+					github="https://github.com/OlivierPire/OlivierPire_7_11112021"
 				/>
 				<Cards
 					img="../capture_fisheye.jpg"
@@ -27,6 +29,7 @@ const Portfolio = () => {
 					details="Projet Openclassrooms développer avec React à l'aide de redux toolkit pour la partie stockage de données en local, le but du projet était de convertir une application jQuery en react et de créer un package déployer sur npm et l'intégrer dans l'application 'en l'occurence la modal). "
 					link="https://olivierpire.github.io/OlivierPire_06_220921/index.html"
 					technos={['../Sass.png', '../Javascript.png']}
+					github="https://github.com/OlivierPire/OlivierPire_06_220921"
 				/>
 				<Cards
 					img="../capture_reservia.jpg"
@@ -34,6 +37,7 @@ const Portfolio = () => {
 					details="Projet Openclassrooms développer avec React à l'aide de redux toolkit pour la partie stockage de données en local, le but du projet était de convertir une application jQuery en react et de créer un package déployer sur npm et l'intégrer dans l'application 'en l'occurence la modal). "
 					link="https://olivierpire.github.io/OlivierPire_2_06072021/"
 					technos={['../HTML.png', '../CSS.png']}
+					github="https://github.com/OlivierPire/OlivierPire_2_06072021"
 				/>
 			</div>
 		</div>

@@ -24,6 +24,9 @@ body {
 	background: url('../../public/backgroundjpg.jpg');
 	background-position: 50% 30%;
 }
+::-webkit-scrollbar {
+	display: none;
+	}
 
 li {
 	list-style-type: none;

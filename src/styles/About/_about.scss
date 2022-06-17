@@ -8,11 +8,11 @@
         left: 100px;
         top: 50%;
         transform: translate(0, -50%);
-        animation: progress-display 2s;
+        animation: progress-display 0.5s;
     }
 
     .about-text {
-        animation: progress-display 3s;
+        animation: progress-display 0.5s;
         text-align: justify;
         position: absolute;
         top: 50%;
