@@ -1,0 +1,53 @@
+.social-media {
+    width: 130px;
+    height: 250px;
+    position: fixed;
+    top: 50%;
+    right: -10px;
+    transform: translate(0, -50%);
+    transition: 0.7s;
+    
+    ul {
+        border-radius: 10px;
+        background-color: #457b9db7;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 25px;
+        @include shadow;
+
+        .media {
+            width: 40px;
+            font-size: 1.9em;
+            color: rgb(255, 255, 255);
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    .social-media-arrow {
+        cursor: pointer;
+        color: white;
+        font-size: 1.7em;
+        border-radius: 5px;
+        position: absolute;
+        padding: 5px;
+        // background-color: transparent;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        top: 50%;
+        left: 2px;
+        transform: translate(0, -50%);
+        z-index: 10000;
+        transition: 0.5s;
+
+        &:hover {
+        font-size: 2.2em;
+        }
+    }
+}

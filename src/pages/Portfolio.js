@@ -1,6 +1,7 @@
 import React from "react";
 import Cards from "../components/Cards";
 import Header from "../components/Header";
+import SocialBar from "../components/SocialBar";
 
 const Portfolio = () => {
 	return (
@@ -40,6 +41,7 @@ const Portfolio = () => {
 					github="https://github.com/OlivierPire/OlivierPire_2_06072021"
 				/>
 			</div>
+			<SocialBar />
 		</div>
 	);
 };

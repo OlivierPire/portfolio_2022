@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialBar from '../components/SocialBar';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div className='home'>
             <Header />
             <Hero />
+            <SocialBar />
         </div>
     );
 };

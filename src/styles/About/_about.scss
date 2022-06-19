@@ -1,4 +1,32 @@
 .about-hero {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        color: $color-5;
+        font-size: 0.9em;
+        margin-top: 40px;
+        
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .social-contact {
+            display: flex;
+        }
+
+        .contact-icons {
+            font-size: 1.1em;
+            margin-right: 10px;
+        }
+
+        img {
+            margin-right: 15px;
+            margin-top: 15px;
+            width: 40px;
+        }
+    }
 
     .portrait {
         opacity: 1;
@@ -19,7 +47,7 @@
         left: 57%;
         transform: translate(-50%, -50%);
         color: $color-4;
-        font-size: 1.5em;
+        font-size: 1.2em;
 
         a {
             color: $color-2;
