@@ -7,7 +7,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 const AboutHero = () => {
 	return (
 		<div className="about-hero">
-			<img src="../blue2.png" alt="" className="portrait" />
+			<img src="./blue2.png" alt="" className="portrait" />
 			<div className="about-text">
 				<p>
 					Bonjour, je m'appelle <span>Olivier</span>, j'ai 27 ans. <br />
@@ -20,7 +20,7 @@ const AboutHero = () => {
 					Aujourd'hui à la recherche d'une première expérience, <br />Je vous invite à jeter
 					un œil à mon <NavLink to={"/portfolio"}>Portfolio</NavLink> ou à
 					télécharger mon{" "}
-					<Link to="../html.png" target="_blank" download>
+					<Link to="./html.png" target="_blank" download>
 						CV
 					</Link> pour en savoir plus.
 				</p>
@@ -30,8 +30,8 @@ const AboutHero = () => {
 						<li><FontAwesomeIcon icon={faPhone} className='contact-icons' />07.69.03.26.58</li>
 					</ul>
 					<ul className="social-contact">
-						<li><a href="https://www.linkedin.com/in/olivier-pire" target="_blank" rel="noreferrer"><img src="../linkedin.png" alt="" /></a></li>
-						<li><a href="https://github.com/OlivierPire"><img src="../GitHub.png" alt="" /></a></li>
+						<li><a href="https://www.linkedin.com/in/olivier-pire" target="_blank" rel="noreferrer"><img src="./linkedin.png" alt="" /></a></li>
+						<li><a href="https://github.com/OlivierPire"><img src="./GitHub.png" alt="" /></a></li>
 					</ul>
 				</p>
 			</div>
