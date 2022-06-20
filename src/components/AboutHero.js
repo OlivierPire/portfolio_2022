@@ -12,13 +12,13 @@ const AboutHero = () => {
 				<p>
 					Bonjour, je m'appelle <span>Olivier</span>, j'ai 27 ans. <br />
 					<br /> Suite à plusieurs expériences dans différents domaines, <br />
-					j'ai décidé de trouver ma voie, celle qui allait me passionné et me boosté
+					J'ai décidé de trouver ma voie, celle qui allait me passionner et me booster
 					au quotidien. <br />
-					<br /> C'est donc dans cette optique que j'ai entamé une reconvertion en
+					<br /> C'est donc dans cette optique que j'ai entamé une reconversion en
 					tant que <span>développeur Front-end</span>, avec un diplôme chez
 					OpenClassrooms. <br /> <br />
-					Aujourd'hui à la recherche d'une première expérience, <br />je vous invite à jeter
-					un oeil à mon <NavLink to={"/portfolio"}>Portfolio</NavLink> ou à
+					Aujourd'hui à la recherche d'une première expérience, <br />Je vous invite à jeter
+					un œil à mon <NavLink to={"/portfolio"}>Portfolio</NavLink> ou à
 					télécharger mon{" "}
 					<Link to="../html.png" target="_blank" download>
 						CV

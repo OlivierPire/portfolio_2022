@@ -10,7 +10,7 @@ const Hero = () => {
 			<div className="presentation">
 				<h1>Olivier Pire</h1>
 				<h2>
-					Développeur d'application <br /> front-End
+					Développeur d'application <br /> <span>front-End</span>
 				</h2>
 				<NavLink to='/portfolio' className="btn-block">
 					<button className="hero-btn" aria-label="bouton portfolio">

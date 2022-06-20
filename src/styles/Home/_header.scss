@@ -7,12 +7,31 @@
     padding-right: 100px;
     position: relative;
 
-    h1 {
+    .title {
         font-size: 1em;
-        font-weight: lighter;
+        position: absolute;
+        left: 100px;
+        display: flex;
+        align-items: center;
+
+        .round {
+            display: none;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: $color-2;
+        }
+
+        h1 {
+            color: $color-5;
+            font-weight: lighter;
+        }
     }
+    
 
     a {
+        margin-right: 15px;
         display: flex;
         align-items: baseline;
     }

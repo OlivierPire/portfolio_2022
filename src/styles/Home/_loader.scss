@@ -1,0 +1,47 @@
+.loader {
+    display: flex;
+    width: 7%;
+    justify-content: space-between;
+
+    :nth-child(1) {
+        background-color: $color-5;
+        animation-iteration-count: infinite;
+        animation-name: loader;
+        animation-duration: 2s;
+        animation-delay: 0s;
+    }
+
+    :nth-child(2) {
+        background-color: $color-2;
+        animation-iteration-count: infinite;
+        animation-name: loader;
+        animation-duration: 2s;
+        animation-delay: 0.2s;
+    }
+
+    :nth-child(3) {
+        background-color: $color-4;
+        animation-iteration-count: infinite;
+        animation-name: loader;
+        animation-duration: 2s;
+        animation-delay: 0.4s;;
+    }
+
+    div {
+        transform: rotate(315deg);
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@keyframes loader {
+    0% {
+        transform: translateY(0) rotate(315deg);
+    }
+    50% {
+        transform: translateY(8px) rotate(315deg) scale(1.2);
+    }
+    100% {
+        transform: translateY(0) rotate(315deg);
+    }
+}
