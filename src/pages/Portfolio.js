@@ -9,7 +9,7 @@ const Portfolio = () => {
 			<Header />
 			<div className="cards">
 				<Cards
-					img="../../capture_hrnet.jpg"
+					img="/images/capture_hrnet.jpg"
 					title="HRnet | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/P14_Olivier_Pire/"
