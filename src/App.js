@@ -6,7 +6,7 @@ import './styles/index.scss'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/portfolio" exact element={<Portfolio />} />

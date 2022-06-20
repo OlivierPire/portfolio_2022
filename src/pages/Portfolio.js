@@ -9,7 +9,7 @@ const Portfolio = () => {
 			<Header />
 			<div className="cards">
 				<Cards
-					img="../capture_hrnet.jpg"
+					img="../../capture_hrnet.jpg"
 					title="HRnet | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/P14_Olivier_Pire/"
@@ -17,7 +17,7 @@ const Portfolio = () => {
 					github="https://github.com/OlivierPire/P14_Olivier_Pire"
 				/>
 				<Cards
-					img="../capture_petits_plats.jpg"
+					img="../../capture_petits_plats.jpg"
 					title="Les petits plats | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/OlivierPire_7_11112021/"
@@ -25,7 +25,7 @@ const Portfolio = () => {
 					github="https://github.com/OlivierPire/OlivierPire_7_11112021"
 				/>
 				<Cards
-					img="../capture_fisheye.jpg"
+					img="../../capture_fisheye.jpg"
 					title="Fisheye | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/OlivierPire_06_220921/index.html"
@@ -33,7 +33,7 @@ const Portfolio = () => {
 					github="https://github.com/OlivierPire/OlivierPire_06_220921"
 				/>
 				<Cards
-					img="../capture_reservia.jpg"
+					img="../../capture_reservia.jpg"
 					title="Réservia | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/OlivierPire_2_06072021/"
