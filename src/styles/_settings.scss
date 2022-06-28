@@ -21,7 +21,7 @@ body {
 	margin: 0 auto;
 	font-family: 'Righteous', cursive;
 	color: $color-1;
-	background: url('../../public/backgroundjpg.jpg');
+	background: url('../../public/backgroundjpg.jpg') fixed;
 	background-position: 50% 30%;
 }
 ::-webkit-scrollbar {

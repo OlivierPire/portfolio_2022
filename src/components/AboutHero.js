@@ -3,11 +3,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import pictureOfMe from '../assets/blue2.png'
 
 const AboutHero = () => {
 	return (
 		<div className="about-hero">
-			<img src="./blue2.png" alt="" className="portrait" />
+			<img src={pictureOfMe} alt="" className="portrait" />
 			<div className="about-text">
 				<p>
 					Bonjour, je m'appelle <span>Olivier</span>, j'ai 27 ans. <br />
@@ -24,7 +25,7 @@ const AboutHero = () => {
 						CV
 					</Link> pour en savoir plus.
 				</p>
-				<p className="contact">
+				<div className="contact">
 					<ul className="mail-phone">
 						<li><FontAwesomeIcon icon={faEnvelope} className='contact-icons' />olivier.pire@outlook.fr</li>
 						<li><FontAwesomeIcon icon={faPhone} className='contact-icons' />07.69.03.26.58</li>
@@ -33,7 +34,7 @@ const AboutHero = () => {
 						<li><a href="https://www.linkedin.com/in/olivier-pire" target="_blank" rel="noreferrer"><img src="./linkedin.png" alt="" /></a></li>
 						<li><a href="https://github.com/OlivierPire"><img src="./GitHub.png" alt="" /></a></li>
 					</ul>
-				</p>
+				</div>
 			</div>
 		</div>
 	);

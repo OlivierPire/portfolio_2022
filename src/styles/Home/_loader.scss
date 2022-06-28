@@ -1,6 +1,6 @@
 .loader {
     display: flex;
-    width: 7%;
+    width: 95px;
     justify-content: space-between;
 
     :nth-child(1) {
@@ -43,5 +43,12 @@
     }
     100% {
         transform: translateY(0) rotate(315deg);
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .loader {
+        margin-bottom: 40px;
+
     }
 }

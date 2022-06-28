@@ -19,7 +19,7 @@ const Cards = ({ img, details, title, technos, link, github, linkBis }) => {
 					{technos.map((techno) => (
 						<li key={title + techno}>
 							<img src={techno} alt="" className="techno-mini" />
-							<p className="techno-label">{techno.slice(3, techno.length - 4)}</p>
+							<p className="techno-label">{techno.slice(2, techno.length - 4)}</p>
 						</li>
 					))}
 				</ul>
@@ -47,7 +47,7 @@ const Cards = ({ img, details, title, technos, link, github, linkBis }) => {
 					{technos.map((techno) => (
 						<li key={title + techno}>
 							<img src={techno} alt="" className="techno-mini" />
-							<p className="techno-label">{techno.slice(3, techno.length - 4)}</p>
+							<p className="techno-label">{techno.slice(2, techno.length - 4)}</p>
 						</li>
 					))}
 				</ul>
