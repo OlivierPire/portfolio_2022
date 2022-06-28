@@ -4,6 +4,9 @@ import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import pictureOfMe from '../assets/blue2.png'
+import githubLogo from '../assets/GitHub.png'
+import linkedinLogo from '../assets/linkedin.png'
+
 
 const AboutHero = () => {
 	return (
@@ -31,8 +34,8 @@ const AboutHero = () => {
 						<li><FontAwesomeIcon icon={faPhone} className='contact-icons' />07.69.03.26.58</li>
 					</ul>
 					<ul className="social-contact">
-						<li><a href="https://www.linkedin.com/in/olivier-pire" target="_blank" rel="noreferrer"><img src="./linkedin.png" alt="" /></a></li>
-						<li><a href="https://github.com/OlivierPire"><img src="./GitHub.png" alt="" /></a></li>
+						<li><a href="https://www.linkedin.com/in/olivier-pire" target="_blank" rel="noreferrer"><img src={linkedinLogo} alt="" /></a></li>
+						<li><a href="https://github.com/OlivierPire"><img src={githubLogo} alt="" /></a></li>
 					</ul>
 				</div>
 			</div>

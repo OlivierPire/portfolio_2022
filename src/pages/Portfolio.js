@@ -2,6 +2,16 @@ import React from "react";
 import Cards from "../components/Cards";
 import Header from "../components/Header";
 import SocialBar from "../components/SocialBar";
+import reactLogo from '../assets/React.png'
+import cssLogo from '../assets/CSS.png'
+import htmlLogo from '../assets/HTML.png'
+import javascriptLogo from '../assets/Javascript.png'
+import reduxLogo from '../assets/Redux.png'
+import sassLogo from '../assets/Sass.png'
+import hrnet from '../assets/capture_hrnet.jpg'
+import fishEye from '../assets/capture_fisheye.jpg'
+import petitsPlats from '../assets/capture_petits_plats.jpg'
+import reservia from '../assets/capture_reservia.jpg'
 
 const Portfolio = () => {
 	return (
@@ -9,35 +19,35 @@ const Portfolio = () => {
 			<Header />
 			<div className="cards">
 				<Cards
-					img="./capture_hrnet.jpg"
+					img={hrnet}
 					title="HRnet | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/P14_Olivier_Pire/"
-					technos={['./React.png', './Redux.png', './Sass.png']}
+					technos={[reactLogo, reduxLogo, sassLogo]}
 					github="https://github.com/OlivierPire/P14_Olivier_Pire"
 				/>
 				<Cards
-					img="./capture_petits_plats.jpg"
+					img={petitsPlats}
 					title="Les petits plats | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/OlivierPire_7_11112021/"
-					technos={['./Sass.png', './Javascript.png']}
+					technos={[sassLogo, javascriptLogo]}
 					github="https://github.com/OlivierPire/OlivierPire_7_11112021"
 				/>
 				<Cards
-					img="./capture_fisheye.jpg"
+					img={fishEye}
 					title="Fisheye | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/OlivierPire_06_220921/index.html"
-					technos={['./Sass.png', './Javascript.png']}
+					technos={[sassLogo, javascriptLogo]}
 					github="https://github.com/OlivierPire/OlivierPire_06_220921"
 				/>
 				<Cards
-					img="./capture_reservia.jpg"
+					img={reservia}
 					title="Réservia | OpenClassrooms"
 					details=""
 					link="https://olivierpire.github.io/OlivierPire_2_06072021/"
-					technos={['./HTML.png', './CSS.png']}
+					technos={[htmlLogo, cssLogo]}
 					github="https://github.com/OlivierPire/OlivierPire_2_06072021"
 				/>
 			</div>
