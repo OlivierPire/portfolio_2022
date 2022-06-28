@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_2022/static/css/main.fc9bf6d0.css",
-    "main.js": "/portfolio_2022/static/js/main.a68ac60c.js",
+    "main.css": "/portfolio_2022/static/css/main.13abaad8.css",
+    "main.js": "/portfolio_2022/static/js/main.63e6f896.js",
+    "static/media/blue2.png": "/portfolio_2022/static/media/blue2.62ad713fbf8caf0ecd73.png",
+    "static/media/Sass.png": "/portfolio_2022/static/media/Sass.4974813557c4abce2404.png",
+    "static/media/CSS.png": "/portfolio_2022/static/media/CSS.ef003970dc60c8203190.png",
     "static/media/backgroundjpg.jpg": "/portfolio_2022/static/media/backgroundjpg.32dec2c0bbd011a34c6a.jpg",
+    "static/media/HTML.png": "/portfolio_2022/static/media/HTML.5dbe8750fe79ddea1d21.png",
+    "static/media/Javascript.png": "/portfolio_2022/static/media/Javascript.029f5e2f84df441c60b0.png",
+    "static/media/GitHub.png": "/portfolio_2022/static/media/GitHub.2546f5c11d71115b148a.png",
+    "static/media/Redux.png": "/portfolio_2022/static/media/Redux.1dde461bde3e1a0bb5dc.png",
+    "static/media/Git.png": "/portfolio_2022/static/media/Git.ced90972b10cf6483482.png",
     "index.html": "/portfolio_2022/index.html",
-    "main.fc9bf6d0.css.map": "/portfolio_2022/static/css/main.fc9bf6d0.css.map",
-    "main.a68ac60c.js.map": "/portfolio_2022/static/js/main.a68ac60c.js.map"
+    "main.13abaad8.css.map": "/portfolio_2022/static/css/main.13abaad8.css.map",
+    "main.63e6f896.js.map": "/portfolio_2022/static/js/main.63e6f896.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc9bf6d0.css",
-    "static/js/main.a68ac60c.js"
+    "static/css/main.13abaad8.css",
+    "static/js/main.63e6f896.js"
   ]
 }
