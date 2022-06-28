@@ -1,9 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio_2022/static/css/main.13abaad8.css",
-    "main.js": "/portfolio_2022/static/js/main.63e6f896.js",
+    "main.js": "/portfolio_2022/static/js/main.ddfab1bc.js",
     "static/media/blue2.png": "/portfolio_2022/static/media/blue2.62ad713fbf8caf0ecd73.png",
+    "static/media/capture_petits_plats.jpg": "/portfolio_2022/static/media/capture_petits_plats.a02533bb3c3d37b2c254.jpg",
+    "static/media/capture_fisheye.jpg": "/portfolio_2022/static/media/capture_fisheye.0c55a0e1d346a783cee9.jpg",
+    "static/media/capture_reservia.jpg": "/portfolio_2022/static/media/capture_reservia.df81dc57ffeb1b7f48bf.jpg",
     "static/media/Sass.png": "/portfolio_2022/static/media/Sass.4974813557c4abce2404.png",
+    "static/media/capture_hrnet.jpg": "/portfolio_2022/static/media/capture_hrnet.ac11fdc72d85a163c58e.jpg",
     "static/media/CSS.png": "/portfolio_2022/static/media/CSS.ef003970dc60c8203190.png",
     "static/media/backgroundjpg.jpg": "/portfolio_2022/static/media/backgroundjpg.32dec2c0bbd011a34c6a.jpg",
     "static/media/HTML.png": "/portfolio_2022/static/media/HTML.5dbe8750fe79ddea1d21.png",
@@ -13,10 +17,10 @@
     "static/media/Git.png": "/portfolio_2022/static/media/Git.ced90972b10cf6483482.png",
     "index.html": "/portfolio_2022/index.html",
     "main.13abaad8.css.map": "/portfolio_2022/static/css/main.13abaad8.css.map",
-    "main.63e6f896.js.map": "/portfolio_2022/static/js/main.63e6f896.js.map"
+    "main.ddfab1bc.js.map": "/portfolio_2022/static/js/main.ddfab1bc.js.map"
   },
   "entrypoints": [
     "static/css/main.13abaad8.css",
-    "static/js/main.63e6f896.js"
+    "static/js/main.ddfab1bc.js"
   ]
 }
