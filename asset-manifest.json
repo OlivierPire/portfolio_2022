@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio_2022/static/css/main.13abaad8.css",
-    "main.js": "/portfolio_2022/static/js/main.ddfab1bc.js",
+    "main.css": "/portfolio_2022/static/css/main.4ee576c9.css",
+    "main.js": "/portfolio_2022/static/js/main.27a43a30.js",
     "static/media/blue2.png": "/portfolio_2022/static/media/blue2.62ad713fbf8caf0ecd73.png",
     "static/media/capture_petits_plats.jpg": "/portfolio_2022/static/media/capture_petits_plats.a02533bb3c3d37b2c254.jpg",
+    "static/media/capture_kasa.jpg": "/portfolio_2022/static/media/capture_kasa.552d06bb53b693f7623e.jpg",
     "static/media/capture_fisheye.jpg": "/portfolio_2022/static/media/capture_fisheye.0c55a0e1d346a783cee9.jpg",
     "static/media/capture_reservia.jpg": "/portfolio_2022/static/media/capture_reservia.df81dc57ffeb1b7f48bf.jpg",
     "static/media/Sass.png": "/portfolio_2022/static/media/Sass.4974813557c4abce2404.png",
@@ -16,11 +17,11 @@
     "static/media/Redux.png": "/portfolio_2022/static/media/Redux.1dde461bde3e1a0bb5dc.png",
     "static/media/Git.png": "/portfolio_2022/static/media/Git.ced90972b10cf6483482.png",
     "index.html": "/portfolio_2022/index.html",
-    "main.13abaad8.css.map": "/portfolio_2022/static/css/main.13abaad8.css.map",
-    "main.ddfab1bc.js.map": "/portfolio_2022/static/js/main.ddfab1bc.js.map"
+    "main.4ee576c9.css.map": "/portfolio_2022/static/css/main.4ee576c9.css.map",
+    "main.27a43a30.js.map": "/portfolio_2022/static/js/main.27a43a30.js.map"
   },
   "entrypoints": [
-    "static/css/main.13abaad8.css",
-    "static/js/main.ddfab1bc.js"
+    "static/css/main.4ee576c9.css",
+    "static/js/main.27a43a30.js"
   ]
 }
