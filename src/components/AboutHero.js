@@ -6,6 +6,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import pictureOfMe from "../assets/blue2.png";
 import githubLogo from "../assets/GitHub.png";
 import linkedinLogo from "../assets/linkedin.png";
+import cv from "../assets/Cv.pdf";
 
 const AboutHero = () => {
 	return (
@@ -16,16 +17,16 @@ const AboutHero = () => {
 					Bonjour, je m'appelle <span>Olivier</span>, j'ai 27 ans. <br />
 					<br /> Passionné par le numérique depuis toujours, j’ai d’abord débuté des
 					cours en ligne d’Html, de Css et de Javascript afin de voir si ce métier
-					pouvait me plaire. J'ai découvert une vraie passion. <br/>
+					pouvait me plaire. J'ai découvert une vraie passion. <br />
 					<br /> C'est donc dans cette optique que j'ai entamé une reconversion en
 					tant que <span>développeur Front-end</span>, avec un diplôme chez
 					OpenClassrooms. <br /> <br />
 					Aujourd'hui à la recherche d'une première expérience, <br />
 					Je vous invite à jeter un œil à mon{" "}
-					<NavLink to={"/portfolio"}>Portfolio</NavLink> ou à télécharger mon{" "}
-					<Link to="./html.png" target="_blank" download>
-						CV
-					</Link>{" "}
+					<NavLink to={"/portfolio"}>Portfolio</NavLink> ou à{" "}
+					<a href={cv} download="CV_Pire_Olivier" target="_blank" rel="noreferrer">
+						télécharger mon CV
+					</a>{" "}
 					pour en savoir plus.
 				</p>
 				<div className="contact">
@@ -50,7 +51,11 @@ const AboutHero = () => {
 							</a>
 						</li>
 						<li>
-							<a href="https://github.com/OlivierPire">
+							<a
+								href="https://github.com/OlivierPire"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<img src={githubLogo} alt="" />
 							</a>
 						</li>
