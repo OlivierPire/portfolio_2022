@@ -3,10 +3,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import pictureOfMe from '../assets/blue2.png'
-import githubLogo from '../assets/GitHub.png'
-import linkedinLogo from '../assets/linkedin.png'
-
+import pictureOfMe from "../assets/blue2.png";
+import githubLogo from "../assets/GitHub.png";
+import linkedinLogo from "../assets/linkedin.png";
 
 const AboutHero = () => {
 	return (
@@ -15,27 +14,46 @@ const AboutHero = () => {
 			<div className="about-text">
 				<p>
 					Bonjour, je m'appelle <span>Olivier</span>, j'ai 27 ans. <br />
-					<br /> Suite à plusieurs expériences dans différents domaines, <br />
-					J'ai décidé de trouver ma voie, celle qui allait me passionner et me booster
-					au quotidien. <br />
+					<br /> Passionné par le numérique depuis toujours, j’ai d’abord débuté des
+					cours en ligne d’Html, de Css et de Javascript afin de voir si ce métier
+					pouvait me plaire. J'ai découvert une vraie passion. <br/>
 					<br /> C'est donc dans cette optique que j'ai entamé une reconversion en
 					tant que <span>développeur Front-end</span>, avec un diplôme chez
 					OpenClassrooms. <br /> <br />
-					Aujourd'hui à la recherche d'une première expérience, <br />Je vous invite à jeter
-					un œil à mon <NavLink to={"/portfolio"}>Portfolio</NavLink> ou à
-					télécharger mon{" "}
+					Aujourd'hui à la recherche d'une première expérience, <br />
+					Je vous invite à jeter un œil à mon{" "}
+					<NavLink to={"/portfolio"}>Portfolio</NavLink> ou à télécharger mon{" "}
 					<Link to="./html.png" target="_blank" download>
 						CV
-					</Link> pour en savoir plus.
+					</Link>{" "}
+					pour en savoir plus.
 				</p>
 				<div className="contact">
 					<ul className="mail-phone">
-						<li><FontAwesomeIcon icon={faEnvelope} className='contact-icons' />olivier.pire@outlook.fr</li>
-						<li><FontAwesomeIcon icon={faPhone} className='contact-icons' />07.69.03.26.58</li>
+						<li>
+							<FontAwesomeIcon icon={faEnvelope} className="contact-icons" />
+							olivier.pire@outlook.fr
+						</li>
+						<li>
+							<FontAwesomeIcon icon={faPhone} className="contact-icons" />
+							07.69.03.26.58
+						</li>
 					</ul>
 					<ul className="social-contact">
-						<li><a href="https://www.linkedin.com/in/olivier-pire" target="_blank" rel="noreferrer"><img src={linkedinLogo} alt="" /></a></li>
-						<li><a href="https://github.com/OlivierPire"><img src={githubLogo} alt="" /></a></li>
+						<li>
+							<a
+								href="https://www.linkedin.com/in/olivier-pire"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<img src={linkedinLogo} alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/OlivierPire">
+								<img src={githubLogo} alt="" />
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>

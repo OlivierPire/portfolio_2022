@@ -64,22 +64,50 @@
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1400px) {
     .about-hero {
         width: 85%;
         margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        // width: 100%;
+        // flex-direction: column;
+
+        .portrait {
+            margin-top: 20px;
+            width: 40%;
+            height: 40%;
+            transform: translate(0,0);
+            position: static;
+            // object-fit: cover;
+        }
+
+        .about-text {
+            transform: translate(0,0);
+            position: static;
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-hero {
+        width: 85%;
+        margin: 0 auto;
         align-content: center;
         display: flex;
         flex-direction: column;
 
         .portrait {
-            margin-top: 20px;
-            width: 100%;
+            margin: 30px auto;
+            width: 70%;
             transform: translate(0,0);
             position: static;
         }
 
         .about-text {
+            width: 100%;
             transform: translate(0,0);
             position: static;
         }
