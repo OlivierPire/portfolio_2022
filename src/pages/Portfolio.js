@@ -13,6 +13,7 @@ import kasa from "../assets/capture_kasa.jpg";
 import fishEye from "../assets/capture_fisheye.jpg";
 import petitsPlats from "../assets/capture_petits_plats.jpg";
 import reservia from "../assets/capture_reservia.jpg";
+import ohmyfood from "../assets/ohmyfood.jpg";
 
 const Portfolio = () => {
 	return (
@@ -50,6 +51,14 @@ const Portfolio = () => {
 					link="https://olivierpire.github.io/OlivierPire_7_11112021/"
 					technos={[htmlLogo, sassLogo, javascriptLogo]}
 					github="https://github.com/OlivierPire/OlivierPire_7_11112021"
+				/>
+				<Cards
+					img={ohmyfood}
+					title="OhMyFood | OpenClassrooms"
+					details="L'objectif ici était d'abord de faire une application mobile-first en respectant la maquette à la lettre, puis d'ajouter des animations en css comme les coeurs, le loader et le check au niveau du survol des recettes."
+					link="https://olivierpire.github.io/OlivierPire_3_05082021/index.html"
+					technos={[htmlLogo, sassLogo]}
+					github="https://github.com/OlivierPire_3_05082021"
 				/>
 				<Cards
 					img={reservia}
