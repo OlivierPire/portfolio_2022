@@ -58,7 +58,7 @@ const Portfolio = () => {
 					details="L'objectif ici était d'abord de faire une application mobile-first en respectant la maquette à la lettre, puis d'ajouter des animations en css comme les coeurs, le loader et le check au niveau du survol des recettes."
 					link="https://olivierpire.github.io/OlivierPire_3_05082021/index.html"
 					technos={[htmlLogo, sassLogo]}
-					github="https://github.com/OlivierPire_3_05082021"
+					github="https://github.com/OlivierPire/OlivierPire_3_05082021"
 				/>
 				<Cards
 					img={reservia}
