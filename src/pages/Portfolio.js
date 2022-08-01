@@ -14,12 +14,21 @@ import fishEye from "../assets/capture_fisheye.jpg";
 import petitsPlats from "../assets/capture_petits_plats.jpg";
 import reservia from "../assets/capture_reservia.jpg";
 import ohmyfood from "../assets/ohmyfood.jpg";
+import nooblix from "../assets/capture_nooblix.jpg";
 
 const Portfolio = () => {
 	return (
 		<div className="portfolio">
 			<Header />
 			<div className="cards">
+				<Cards
+					img={nooblix}
+					title="Clone Netflix | Projet perso"
+					details="Sur ce projet, j'ai choisi de cloner la page d'accueil de Netflix avec React. J'y ai ajouté la fonctionnalité de recherche, des dropdown dans la navigation et le slider pour chaque collection."
+					link="https://olivierpire.github.io/Projet-portfolio-clone/"
+					technos={[reactLogo, sassLogo]}
+					github="https://github.com/OlivierPire/Projet-portfolio-clone.git"
+				/>
 				<Cards
 					img={kasa}
 					title="Kasa | OpenClassrooms"
